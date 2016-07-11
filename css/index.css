@@ -1,0 +1,342 @@
+header{
+	width:100%;
+	height:;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+	width:100%;
+}
+.nav1{
+	width:100%;
+	height:auto;
+	padding:1.5rem 0;
+	overflow: hidden;
+	background: #fff;
+	border-bottom:2px solid #f4f4f4;
+}
+.nav1 li{
+	width:20%;
+	display: block;
+	float:left;text-align:center;
+}
+.nav1 li a{
+	display: block;
+}
+
+.zntt{
+	width:100%;
+	padding:10px 55px;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #fff;
+	margin-bottom: 20px;
+	height:60px;
+
+}
+.zntt a{
+	display: block;float:left;
+}
+
+.zntt .sx{
+	/*float:left;*/width:80%!important;height:50px;/*line-height: 50px;*/
+}
+
+.sx{
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+.zhangbox{
+	width:100%;overflow: hidden;
+}
+.zhang_top{
+	width:100%;
+	/*height:46px;*/
+	padding:10px 20px;
+	background: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+.zhang_top div{
+	display: inline-block;
+}
+.zhang_bottom{
+	width:100%;
+	background: green;
+	font-size: 0;
+}
+
+.zhang_bottom img{
+	width:100%;
+}
+.zhang_top>span{
+	color:red;
+	float:left;
+	margin-right:30px;
+	padding:20px 20px;
+}
+.zhang_top .timeCon{
+	display:block;
+	color:#000;
+	float: left;
+	padding:20px 20px;
+}
+
+.end{
+	float: left;
+}
+.timeCon .Timeend{
+	/*width:80px;*/
+	display: inline-block;
+
+}
+.Timeend li{
+	float:left;
+	display: inline-block;
+}
+.Timeend li{
+	width:40px;height:40px;
+	border:1px solid #ccc;
+	text-align:center;
+}
+.Timeend .dian{
+	border:none;
+}
+.tian{
+	float:right;
+	padding:20px 20px;
+}
+
+/*明星产品*/
+.mxcp{
+	width:100%;
+	overflow: hidden;
+	background: #fff;	
+}
+.mxcp_top{
+	width:100%;
+	text-align: center;
+	padding:20px 0;
+	overflow: hidden;
+	background: #f4f4f4;
+}
+.mxcp i{
+	color:#ccc;
+}
+.mxcp_fl{
+	width:100%;
+	overflow: hidden;
+}
+.mxcp_fl li{
+	width:50%;
+	float:left;
+	/*background: red;*/
+	padding:20px auto 10px;
+	text-align:center;
+	border-bottom:1px solid #bbb;
+}
+.mxcp_rbk{
+	width:100%;
+	border-right:1px solid #bbb;
+	padding:20px 0;
+}
+.xz{
+	width:50%;
+	margin-left:25%;
+	text-align:center;
+	padding:10px 0;
+	border:1px solid #888888;
+	border-radius:50px;
+}
+.xz *{
+	vertical-align: middle;
+}
+
+.mxcp_mimg{
+	overflow: hidden;
+	margin:20px 0 10px;
+}
+.mxcp_bottom{
+	width:100%;
+	text-align:center;
+	border-right:1px solid #bbb;
+	padding-bottom:20px;
+}
+.mxcp_bottom p{
+	padding:10px 0;	
+}
+.mxcp_bottom span{
+	color:red;	
+}
+
+
+/*新品上市*/
+.xpss{
+	width:100%;
+	overflow: hidden;
+	background: #f4f4f4;	
+}
+.xpss_top{
+	width:100%;
+	text-align: center;
+	padding:20px 0;
+	overflow: hidden;
+	background: #f4f4f4;
+}
+
+.xpss_inner{
+    width:100%;
+    overflow: hidden;
+
+}
+.xpss_inner li{
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.xpss_mimg{
+	position: relative;
+	width:100%;
+	overflow: hidden;
+}
+.xpss_mimg img{
+	width:100%;
+}
+.jiage{
+	width:10%;
+	height:60px;
+	background: #bbb;
+	line-height: 60px;
+	padding-left:10px;
+	color:#fff;
+}
+.xpss_mimg .jiage{
+	position: absolute;
+	right:0px;
+	bottom:30px;
+}
+
+.xpss_bottom{
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-left:20px;
+	background: #fff;
+}
+.xpss_bottom p{
+    padding:15px 0;
+    
+}
+.xpss_bottom>span{
+    padding:15px 0;
+    font-size: 14px;
+    color:#ccc;
+}
+
+/*手机*/
+.sjbb{
+	height:50px;
+}
+.bdd img{
+    width:360px;
+    height:360px;
+}
+.sj{
+	text-align:left;
+	padding-left:20px;
+	box-sizing: border-box;
+}
+.sj p:nth-child(2){
+	color:#ccc;
+}
+.sjtu img{
+	width:100%;
+	vertical-align: middle;
+}
+
+
+/*footer*/
+.footer{
+	width:100%;
+	height:auto;
+	padding:1.5rem 0;
+	overflow: hidden;
+	background: #fff;
+	border-bottom:2px solid #f4f4f4;
+}
+.footer li{
+	width:33.3333%;
+	display: block;
+	float:left;text-align:center;
+	box-sizing: border-box;
+	border-right:1px solid #ccc;
+}
+.footer li:last-child{
+	border:none;
+}
+.footer li a img{
+	width:100px;height:100px;
+}
+.footer li a{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dibu{
+	height:1000px;
+}
+
+
+ 
+

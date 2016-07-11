@@ -1,0 +1,16 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd,dt,hr,input,p,pre,form{
+	margin:0;padding:0;list-style:none;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration:none;
+	color:#666666;
+	
+}
+ body{
+ 	font:30px "Microsoft yahei","Song typeface","Regular script";
+ 	background: #f4f4f4;
+ 	box-sizing: border-box;
+}
